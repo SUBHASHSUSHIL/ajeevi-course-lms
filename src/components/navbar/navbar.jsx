@@ -11,7 +11,7 @@ export default function Navbar() {
                 <div>
                     <ul>
                         <li>
-                            <NavLink className={"NavLink"} to="/home">Home</NavLink>
+                            <NavLink className={"NavLink"} to="/">Home</NavLink>
                         </li>
                         <li>
                             <NavLink className="NavLink" to="/career">Careers</NavLink>
@@ -26,6 +26,7 @@ export default function Navbar() {
                 </div>
             </div>
             <Outlet />
+            <h1>Welcome to Ajeevi Course LMS</h1>
         </div>
     )
 }

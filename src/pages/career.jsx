@@ -1,4 +1,4 @@
-export default function Career() {
+function Career() {
     return (
         <div>
             <h1>Careers</h1>
@@ -6,3 +6,5 @@ export default function Career() {
         </div>
     );
 }
+
+export default Career;
